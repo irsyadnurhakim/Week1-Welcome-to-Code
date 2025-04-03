@@ -121,6 +121,39 @@ switch(bulan) {
   case 2:
     namaBulan = "februari";
     break;
+    case 3:
+    namaBulan = "maret";
+    break;
+  case 4:
+    namaBulan = "april";
+    break;
+  case 5:
+    namaBulan = "mei";
+    break;
+  case 6:
+    namaBulan = "juni";
+    break;
+  case 7:
+    namaBulan = "juli";
+    break;
+  case 8:   
+    namaBulan = "agustus";
+    break;
+  case 9:
+    namaBulan = "september";
+    break;
+  case 10:  
+    namaBulan = "oktober";
+    break;
+  case 11:
+    namaBulan = "november";
+    break;
+  case 12:  
+    namaBulan = "desember";
+    break;
+  default:
+    namaBulan = "tanggaltidakvalid";
+    break;
 }
 if (namaBulan != "tanggaltidakvalid" && tanggal >= 1 && tanggal <= 31 && tahun >=1900 && tahun <= 2200) {
   console.log(`${tanggal} ${namaBulan} ${tahun}`);
