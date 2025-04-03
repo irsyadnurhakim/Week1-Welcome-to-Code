@@ -9,19 +9,7 @@ let seventh = "it!";
 
 //code here
 console.log(
-  word +
-    " " +
-    second +
-    " " +
-    third +
-    " " +
-    fourth +
-    " " +
-    fifth +
-    " " +
-    sixth +
-    " " +
-    seventh
+  word + " " + second + " " + third + " " + fourth + " " + fifth + " " + sixth + " " + seventh
 );
 ```
 //soal 2
@@ -61,16 +49,7 @@ console.log("Second Word: " + exampleFourthWord3);
 let exampleFifthWord3 = word3.substring(21, 25);
 console.log("Second Word: " + exampleFifthWord3);
 console.log(
-  exampleFirstWord3 +
-    " " +
-    exampleSecondWord3 +
-    " " +
-    exampleThirdWord3 +
-    " " +
-    exampleFourthWord3 +
-    " " +
-    exampleFifthWord3
-);
+  exampleFirstWord3 + " " + exampleSecondWord3 + " " + exampleThirdWord3 + " " + exampleFourthWord3 + " " + exampleFifthWord3);
 ```
 //soal 4
 ```
@@ -102,13 +81,4 @@ console.log(
   "First Word: " + exampleFifthWord4 + ", with length: " + fifthWordLength
 );
 console.log(
-  exampleFirstWord4 +
-    " " +
-    exampleSecondWord4 +
-    " " +
-    exampleThirdWord4 +
-    " " +
-    exampleFourthWord4 +
-    " " +
-    exampleFifthWord4
-);
+  exampleFirstWord4 + " " + exampleSecondWord4 + " " + exampleThirdWord4 + " " + exampleFourthWord4 + " " + exampleFifthWord4);
